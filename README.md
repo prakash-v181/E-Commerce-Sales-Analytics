@@ -173,7 +173,7 @@ See the `requirements.txt` file.
 
 ## Dashboard Preview
 
-![Power BI Dashboard](Dashboard Images/dashboard.png)
+![Power BI Dashboard](Dashboard%20Images/dashboard.png)
 
 ## Python Visualizations
 
