@@ -55,9 +55,11 @@ E-Commerce-Analytics/
 ##  Dashboard Preview
 
 ![alt text](Python/charts/profit_by_region.png)
+![alt text](Python/charts/powerbi.png)
 ![alt text](Python/charts/sales_by_category.png)
 ![alt text](Python/charts/top10_customers.png)
-![alt text](Python/charts/top10_products.png)
+![alt text](Python/charts/powerbi.png)
+
 
 
 ---
