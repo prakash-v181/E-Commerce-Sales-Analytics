@@ -26,7 +26,7 @@ The objective of this project is to analyze sales performance, customer behavior
 ## Project Structure
 
 ```text
-E-Commerce-Analytics/
+E-Commerce-Sales-Analytics/
 │
 ├── Dataset/
 │   └── Sample - Superstore.csv
