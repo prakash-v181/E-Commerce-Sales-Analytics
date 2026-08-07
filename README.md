@@ -35,7 +35,8 @@ E-Commerce-Sales-Analytics/
 │   └── Cleaned_Data.xlsx
 │
 ├── SQL/
-│   
+│   ├── Database.sql
+│   └── Queries.sql
 │
 ├── Python/
 │   ├── analysis.ipynb
@@ -51,9 +52,10 @@ E-Commerce-Sales-Analytics/
 ├── Dashboard Images/
 │   └── dashboard.png
 │
+├── LICENSE
 ├── README.md
-│
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
