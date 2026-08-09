@@ -16,7 +16,23 @@
 <section class="kpis"><div class="card kpi"><div class="kpi-label">Total Sales</div><div class="kpi-value" id="sales">$0</div></div><div class="card kpi"><div class="kpi-label">Total Profit</div><div class="kpi-value positive" id="profit">$0</div></div><div class="card kpi"><div class="kpi-label">Orders</div><div class="kpi-value" id="orders">0</div></div><div class="card kpi"><div class="kpi-label">Customers</div><div class="kpi-value" id="customers">0</div></div><div class="card kpi"><div class="kpi-label">Profit Margin</div><div class="kpi-value" id="margin">0%</div></div></section>
 <div class="grid2"><div class="card chart-card"><h3>Sales & Profit by Month</h3><div class="chart-wrap"><canvas id="monthly"></canvas></div></div><div class="card chart-card"><h3>Sales by Category</h3><div class="chart-wrap"><canvas id="categoryChart"></canvas></div></div></div>
 <div class="grid3"><div class="card chart-card"><h3>Sales by Region</h3><div class="chart-wrap"><canvas id="regionChart"></canvas></div></div><div class="card chart-card"><h3>Sales by Customer Segment</h3><div class="chart-wrap"><canvas id="segmentChart"></canvas></div></div><div class="card chart-card"><h3>Orders by Ship Mode</h3><div class="chart-wrap"><canvas id="shipChart"></canvas></div></div></div>
-<div class="grid2"><div class="card table-card"><h3>Top Products by Sales</h3><div class="table-wrap"><table><thead><tr><th>Product</th><th>Sales</th><th>Profit</th></tr></thead><tbody id="products"></tbody></table></div></div><div class="card table-card"><h3>Top States by Sales</h3><div class="table-wrap"><table><thead><tr><th>State</th><th>Sales</th><th>Profit</th><th>Orders</th></tr></thead><tbody id="states"></tbody></table></div></div></div></div><div class="footer">Source: Excel/Cleaned_Data.xlsx • E-Commerce Sales Analytics</div></main></div>
+<div class="grid2"><div class="card table-card"><h3>Top Products by Sales</h3><div class="table-wrap"><table><thead><tr><th>Product</th><th>Sales</th><th>Profit</th></tr></thead><tbody id="products"></tbody></table></div></div><div class="card table-card"><h3>Top States by Sales</h3><div class="table-wrap"><table><thead><tr><th>State</th><th>Sales</th><th>Profit</th><th>Orders</th></tr></thead><tbody id="states"></tbody></table></div></div></div></div>
+<div class="card" style="margin-top:20px;">
+  <h3 style="margin:0 0 10px;font-size:15px;">👨‍💻 Author</h3>
+  <p style="margin:6px 0;"><strong>Prakash</strong></p>
+  <p style="margin:6px 0;">GitHub:
+    <a href="https://github.com/prakash-v181" target="_blank" rel="noopener noreferrer">
+      https://github.com/prakash-v181
+    </a>
+  </p>
+  <p style="margin:6px 0;">Project Repository:
+    <a href="https://github.com/prakash-v181/E-Commerce-Sales-Analytics" target="_blank" rel="noopener noreferrer">
+      https://github.com/prakash-v181/E-Commerce-Sales-Analytics
+    </a>
+  </p>
+</div>
+
+<div class="footer">Source: Excel/Cleaned_Data.xlsx • E-Commerce Sales Analytics</div></main></div>
 <script>
 const DATA_URL='https://raw.githubusercontent.com/prakash-v181/E-Commerce-Sales-Analytics/main/Excel/Cleaned_Data.xlsx';
 let rows=[],charts={};const $=id=>document.getElementById(id);const fmt=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);const num=n=>new Intl.NumberFormat('en-US').format(n);
