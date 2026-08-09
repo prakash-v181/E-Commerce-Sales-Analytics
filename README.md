@@ -1,25 +1,128 @@
-# E-Commerce Sales Analytics Dashboard
+# E Commerce Sales Analytics Dashboard
 
 ## Project Overview
 
-This project analyzes the E-Commerce Superstore dataset using Excel, MySQL, Python, and Power BI.
+This project analyzes the E Commerce Superstore dataset using Excel, MySQL, Python, Power BI, HTML, CSS and JavaScript.
 
-The objective of this project is to analyze sales performance, customer behavior, product performance, and profit trends using data analysis and visualization techniques.
+The objective of this project is to analyze sales performance, customer behavior, product performance, regional performance and profit trends using data analysis and visualization techniques.
+
+The project demonstrates an end to end data analytics workflow from data cleaning and SQL analysis to Python visualization, Power BI reporting and an interactive web dashboard.
+
+---
+
+## Live Interactive Dashboard
+
+View the live dashboard
+
+https://prakash-v181.github.io/E-Commerce-Sales-Analytics/
+
+The web dashboard provides interactive analysis of sales and business performance.
+
+Dashboard features include
+
+Total Sales
+
+Total Profit
+
+Total Orders
+
+Total Customers
+
+Profit Margin
+
+Monthly Sales and Profit
+
+Sales by Category
+
+Sales by Region
+
+Customer Segment Analysis
+
+Ship Mode Analysis
+
+Top Products
+
+Top States
+
+Region Filter
+
+Category Filter
+
+Product Search
+
+---
+
+## Power BI Dashboard
+
+The Power BI dashboard provides interactive business analysis of sales, profit, customers, products and regions.
+
+Dashboard KPIs
+
+Total Sales
+
+Total Profit
+
+Total Orders
+
+Total Customers
+
+Profit Margin
+
+Dashboard visualizations include
+
+Sales by Category
+
+Profit by Region
+
+Monthly Sales Trend
+
+Sales by Segment
+
+Top 10 Products
+
+Top 10 Customers
+
+Regional Performance
+
+Product Performance
+
+Power BI file
+
+PowerBI/Ecommerce.pbix
 
 ---
 
 ## Tools Used
 
-- Microsoft Excel
-- MySQL
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-- Power BI
-- Visual Studio Code
-- Git
-- GitHub
+Microsoft Excel
+
+MySQL
+
+Python
+
+Pandas
+
+Matplotlib
+
+Jupyter Notebook
+
+Power BI
+
+HTML
+
+CSS
+
+JavaScript
+
+Chart.js
+
+Visual Studio Code
+
+Git
+
+GitHub
+
+GitHub Pages
 
 ---
 
@@ -27,69 +130,40 @@ The objective of this project is to analyze sales performance, customer behavior
 
 ```text
 E-Commerce-Sales-Analytics/
-│
-├── Dataset/
-│   └── Sample - Superstore.csv
-│
-├── Excel/
-│   └── Cleaned_Data.xlsx
-│
-├── SQL/
-│   ├── Database.sql
-│   └── Queries.sql
-│
-├── Python/
-│   ├── analysis.ipynb
-│   └── charts/
-│       ├── sales_by_category.png
-│       ├── profit_by_region.png
-│       ├── top10_customers.png
-│       └── top10_products.png
-│
-├── PowerBI/
-│   └── Ecommerce.pbix
-│
-├── Dashboard Images/
-│   └── dashboard.png
-│
-├── LICENSE
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
+|
+|-- Dataset/
+|   |-- Sample - Superstore.csv
+|
+|-- Excel/
+|   |-- Cleaned_Data.xlsx
+|
+|-- SQL/
+|   |-- Database.sql
+|   |-- Queries.sql
+|
+|-- Python/
+|   |-- analysis.ipynb
+|   |
+|   |-- charts/
+|       |-- sales_by_category.png
+|       |-- profit_by_region.png
+|       |-- top10_customers.png
+|       |-- top10_products.png
+|
+|-- PowerBI/
+|   |-- Ecommerce.pbix
+|
+|-- Dashboard Images/
+|   |-- dashboard.png
+|
+|-- index.html
+|
+|-- LICENSE
+|-- README.md
+|-- requirements.txt
+|-- .gitignore
 
----
 
-## Project Workflow
-
-1. Data Collection
-2. Data Cleaning using Excel
-3. SQL Database Creation
-4. SQL Data Analysis
-5. Python Data Analysis using Pandas
-6. Data Visualization using Matplotlib
-7. Interactive Dashboard using Power BI
-
----
-
-## Dashboard KPIs
-
-- Total Sales
-- Total Profit
-- Total Orders
-- Total Customers
-
----
-
-## Visualizations
-
-- Sales by Category
-- Profit by Region
-- Top 10 Customers by Sales
-- Top 10 Products by Sales
-- Monthly Sales Trend
-
----
 
 ## Key Insights
 
@@ -190,9 +264,15 @@ See the `requirements.txt` file.
 ### Top 10 Products
 ![Top 10 Products](Python/charts/top10_products.png)
 
-## Author
+Author
 
 Prakash
 
-GitHub:
+GitHub
 https://github.com/prakash-v181
+
+Project Repository
+https://github.com/prakash-v181/E-Commerce-Sales-Analytics
+
+Live Dashboard
+https://prakash-v181.github.io/E-Commerce-Sales-Analytics/
